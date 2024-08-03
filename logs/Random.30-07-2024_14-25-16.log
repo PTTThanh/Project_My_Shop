@@ -1,0 +1,20 @@
+[30-07-2024 14:25:21.528 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 01: Click to Link Register on Homepage
+[30-07-2024 14:25:22.567 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 02: Input First Name 
+[30-07-2024 14:25:22.865 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 03: Input Last Name
+[30-07-2024 14:25:23.234 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 04: Input Email
+[30-07-2024 14:25:23.481 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 05: Input Password
+[30-07-2024 14:25:23.710 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 06: Input Confirm Password
+[30-07-2024 14:25:23.878 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 07: Click to Register Button
+[30-07-2024 14:25:24.786 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 08: Click To Link Log Out 
+[30-07-2024 14:25:25.731 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 09: Click To Link Login on HomePage
+[30-07-2024 14:25:26.255 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 10: Input Email Login
+[30-07-2024 14:25:26.573 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 11: Input Email Password
+[30-07-2024 14:25:26.818 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 12: Click to Login Button
+[30-07-2024 14:25:27.605 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 13: Change URL into Admin
+[30-07-2024 14:25:28.591 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 14: Click To Login Button 
+[30-07-2024 14:25:30.031 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 15: Click To Log Out Page
+[30-07-2024 14:25:32.269 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 16: Change URL into User
+[30-07-2024 14:25:32.829 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 17: Click To Link My Account
+[30-07-2024 14:25:33.334 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 18: Verify Value First Name 
+[30-07-2024 14:25:33.391 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 18: Verify Value Last Name 
+[30-07-2024 14:25:33.443 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 18: Verify Value Email 

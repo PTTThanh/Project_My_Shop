@@ -1,0 +1,7 @@
+[29-07-2024 11:26:14.634 INFO myshop.com.Level_16_Log] - User_01 - Step 01: Click to Link Register on Homepage
+[29-07-2024 11:26:15.493 INFO myshop.com.Level_16_Log] - User_01 - Step 02: Input First Name 
+[29-07-2024 11:26:15.778 INFO myshop.com.Level_16_Log] - User_01 - Step 03: Input Last Name
+[29-07-2024 11:26:15.937 INFO myshop.com.Level_16_Log] - User_01 - Step 04: Input Email
+[29-07-2024 11:26:16.148 INFO myshop.com.Level_16_Log] - User_01 - Step 05: Input Password
+[29-07-2024 11:26:16.305 INFO myshop.com.Level_16_Log] - User_01 - Step 06: Input Confirm Password
+[29-07-2024 11:26:16.463 INFO myshop.com.Level_16_Log] - User_01 - Step 07: Click to Register Button

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="none" name="Run NopCommerce">
+	<listeners>
+		<listener class-name="commons.MethodListener"></listener>
+		<listener class-name="commons.reportConfig.ReportNGListener"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+	</listeners>
+	<test name="Run Chorme">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="myshop.com.Level_18_Extent_Report_V5" />
+		</classes>
+	</test>
+</suite> <!--
+Suite -->

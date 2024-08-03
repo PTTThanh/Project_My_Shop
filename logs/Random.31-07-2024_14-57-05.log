@@ -1,0 +1,7 @@
+[31-07-2024 14:57:17.210 INFO myshop.com.Level_18_Extent_Report_V5] - User_01 - Step 01: Click to Link Register on Homepage
+[31-07-2024 14:57:18.167 INFO myshop.com.Level_18_Extent_Report_V5] - User_01 - Step 02: Input First Name 
+[31-07-2024 14:57:18.784 INFO myshop.com.Level_18_Extent_Report_V5] - User_01 - Step 03: Input Last Name
+[31-07-2024 14:57:18.974 INFO myshop.com.Level_18_Extent_Report_V5] - User_01 - Step 04: Input Email
+[31-07-2024 14:57:19.250 INFO myshop.com.Level_18_Extent_Report_V5] - User_01 - Step 05: Input Password
+[31-07-2024 14:57:19.611 INFO myshop.com.Level_18_Extent_Report_V5] - User_01 - Step 06: Input Confirm Password
+[31-07-2024 14:57:19.785 INFO myshop.com.Level_18_Extent_Report_V5] - User_01 - Step 07: Click to Register Button

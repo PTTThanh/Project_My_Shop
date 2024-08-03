@@ -1,0 +1,16 @@
+[30-07-2024 14:49:39.348 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 01: Click to Link Register on Homepage
+[30-07-2024 14:49:40.388 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 02: Input First Name 
+[30-07-2024 14:49:40.683 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 03: Input Last Name
+[30-07-2024 14:49:40.879 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 04: Input Email
+[30-07-2024 14:49:41.135 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 05: Input Password
+[30-07-2024 14:49:41.347 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 06: Input Confirm Password
+[30-07-2024 14:49:41.697 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 07: Click to Register Button
+[30-07-2024 14:49:42.471 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 08: Click To Link Log Out 
+[30-07-2024 14:49:43.276 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 09: Click To Link Login on HomePage
+[30-07-2024 14:49:43.707 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 10: Input Email Login
+[30-07-2024 14:49:44.168 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 11: Input Email Password
+[30-07-2024 14:49:44.359 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 12: Click to Login Button
+[30-07-2024 14:49:45.260 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 13: Click To Link My Account
+[30-07-2024 14:49:45.767 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 14: Verify Value First Name 
+[30-07-2024 14:49:45.844 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 15: Verify Value Last Name 
+[30-07-2024 14:49:45.902 INFO myshop.com.Level_17_Report_Screen_Shot] - User_01 - Step 16: Verify Value Email 

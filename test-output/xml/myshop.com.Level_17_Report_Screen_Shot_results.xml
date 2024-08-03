@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run Chorme"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="10.888">
+  <properties />
+  
+  
+            <testcase name="TC3_Confirm_Info_Login" time="0.702" classname="myshop.com.Level_17_Report_Screen_Shot" />
+                <testcase name="TC1_Register_Page_Success" time="3.132" classname="myshop.com.Level_17_Report_Screen_Shot" />
+                <testcase name="TC2_Login_Page_Success" time="2.783" classname="myshop.com.Level_17_Report_Screen_Shot" />
+                <testcase name="TC4_02_Switch_Page_Object" time="4.271" classname="myshop.com.Level_17_Report_Screen_Shot" />
+      
+</testsuite>

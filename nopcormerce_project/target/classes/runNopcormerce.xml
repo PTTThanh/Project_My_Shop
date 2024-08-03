@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="none" name="Run NopCommerce">
+	<listeners>
+		<listener class-name="commons.MethodListener"></listener>
+	</listeners>
+	<test name="Run Chorme">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.nopcormerce.admin.Nop_08_Admin" />
+		</classes>
+	</test>
+</suite> <!--
+Suite -->

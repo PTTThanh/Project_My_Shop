@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-01T15:09:10 ICT" name="Run NopCommerce" finished-at="2024-08-01T15:09:18 ICT" duration-ms="8206">
+    <groups>
+    </groups>
+    <test started-at="2024-08-01T15:09:10 ICT" name="Run Chorme" finished-at="2024-08-01T15:09:18 ICT" duration-ms="8206">
+      <class name="myshop.com.Level_18_Extent_Report_V5">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:myshop.com.Level_18_Extent_Report_V5@754777cd]" started-at="2024-08-01T15:09:10 ICT" name="beforeClass" finished-at="2024-08-01T15:09:14 ICT" duration-ms="4127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC1_Register_Page_Success(java.lang.reflect.Method)[pri:0, instance:myshop.com.Level_18_Extent_Report_V5@754777cd]" started-at="2024-08-01T15:09:14 ICT" name="TC1_Register_Page_Success" finished-at="2024-08-01T15:09:18 ICT" duration-ms="3588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void myshop.com.Level_18_Extent_Report_V5.TC1_Register_Page_Success(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_Register_Page_Success -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:myshop.com.Level_18_Extent_Report_V5@754777cd]" started-at="2024-08-01T15:09:18 ICT" name="afterClass" finished-at="2024-08-01T15:09:18 ICT" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- myshop.com.Level_18_Extent_Report_V5 -->
+    </test> <!-- Run Chorme -->
+  </suite> <!-- Run NopCommerce -->
+</testng-results>

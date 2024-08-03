@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Run NopCommerce]">
+  <parameter name="url" value="https://blueimp.github.io/jQuery-File-Upload/"/>
+  <test thread-count="5" name="Run Chorme(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.jquery.table.Level_14_UploadFile">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="TC_01_Upload_Single_File"/>
+        </methods>
+      </class> <!-- com.jquery.table.Level_14_UploadFile -->
+    </classes>
+  </test> <!-- Run Chorme(failed) -->
+</suite> <!-- Failed suite [Run NopCommerce] -->
