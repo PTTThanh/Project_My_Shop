@@ -2,14 +2,17 @@ package pageObjects.user;
 
 import org.openqa.selenium.WebDriver;
 
+import commons.BaseElement;
 import commons.BasePage;
 import commons.PageGenerator;
+import pageUIs.user.BaseElementUI;
 import pageUIs.user.RegisterPageUI;
 
-public class RegisterPageObject extends BasePage {
+public class RegisterPageObject extends BaseElement {
 	WebDriver driver;
 
 	public RegisterPageObject(WebDriver driver) {
+		super(driver);
 		this.driver = driver;
 	}
 
@@ -100,6 +103,7 @@ public class RegisterPageObject extends BasePage {
 		return PageGenerator.getHomePageObject(driver);
 	}
 
+	
 	
 
 }

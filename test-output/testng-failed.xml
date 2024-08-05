@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Run NopCommerce]">
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Run Chorme(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.jquery.table.Level_15_Assert_Verify">
+      <class name="myshop.com.Level_19_Pattern_PageObject">
         <methods>
-          <include name="afterClass"/>
-          <include name="TC_01_Login_Empty_Email_Password"/>
+          <include name="TC2_Login_Page_Success"/>
+          <include name="TC3_Confirm_Info_Login"/>
           <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="TC1_Register_Page_Success"/>
+          <include name="TC4_02_Switch_Page_Object"/>
         </methods>
-      </class> <!-- com.jquery.table.Level_15_Assert_Verify -->
+      </class> <!-- myshop.com.Level_19_Pattern_PageObject -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Run Chorme(failed) -->
+</suite> <!-- Failed suite [Run NopCommerce] -->

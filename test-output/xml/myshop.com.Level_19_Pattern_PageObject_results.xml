@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run Chorme"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.265">
+  <properties />
+  
+  
+            <testcase name="TC1_Register_Page_Success" time="2.528" classname="myshop.com.Level_19_Pattern_PageObject" />
+                <testcase name="TC2_Login_Page_Success" time="2.737" classname="myshop.com.Level_19_Pattern_PageObject" />
+      
+</testsuite>
