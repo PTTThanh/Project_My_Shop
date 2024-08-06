@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run Chorme"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.653">
+  <properties />
+  
+  
+            <testcase name="TC1_Confirm_Info_Login" time="0.653" classname="com.nopcommerce.share.Level_Test_Addresses" />
+      
+</testsuite>

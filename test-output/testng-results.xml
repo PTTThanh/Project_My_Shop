@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-05T09:41:44 ICT" name="Run NopCommerce" finished-at="2024-08-05T09:41:53 ICT" duration-ms="9632">
+  <suite started-at="2024-08-06T10:13:38 ICT" name="Run NopCommerce" finished-at="2024-08-06T10:13:49 ICT" duration-ms="11263">
     <groups>
     </groups>
-    <test started-at="2024-08-05T09:41:44 ICT" name="Run Chorme" finished-at="2024-08-05T09:41:53 ICT" duration-ms="9632">
-      <class name="myshop.com.Level_19_Pattern_PageObject">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:myshop.com.Level_19_Pattern_PageObject@21362712]" started-at="2024-08-05T09:41:44 ICT" name="beforeClass" finished-at="2024-08-05T09:41:47 ICT" duration-ms="3823" status="PASS">
+    <test started-at="2024-08-06T10:13:38 ICT" name="Run Chorme" finished-at="2024-08-06T10:13:49 ICT" duration-ms="11263">
+      <class name="com.nopcommerce.share.Level_Test_Addresses">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.nopcommerce.share.Level_Test_Addresses@71a9b4c7]" started-at="2024-08-06T10:13:44 ICT" name="beforeClass" finished-at="2024-08-06T10:13:48 ICT" duration-ms="4285" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,28 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="TC1_Register_Page_Success()[pri:0, instance:myshop.com.Level_19_Pattern_PageObject@21362712]" started-at="2024-08-05T09:41:48 ICT" name="TC1_Register_Page_Success" finished-at="2024-08-05T09:41:50 ICT" duration-ms="2528" status="PASS">
+        <test-method signature="TC1_Confirm_Info_Login()[pri:0, instance:com.nopcommerce.share.Level_Test_Addresses@71a9b4c7]" started-at="2024-08-06T10:13:48 ICT" name="TC1_Confirm_Info_Login" finished-at="2024-08-06T10:13:49 ICT" duration-ms="653" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC1_Register_Page_Success -->
-        <test-method signature="TC2_Login_Page_Success()[pri:0, instance:myshop.com.Level_19_Pattern_PageObject@21362712]" started-at="2024-08-05T09:41:50 ICT" name="TC2_Login_Page_Success" finished-at="2024-08-05T09:41:53 ICT" duration-ms="2737" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC2_Login_Page_Success -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:myshop.com.Level_19_Pattern_PageObject@21362712]" started-at="2024-08-05T09:41:53 ICT" name="afterClass" finished-at="2024-08-05T09:41:53 ICT" duration-ms="495" status="PASS">
+        </test-method> <!-- TC1_Confirm_Info_Login -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.share.Level_Test_Addresses@71a9b4c7]" started-at="2024-08-06T10:13:49 ICT" name="afterClass" finished-at="2024-08-06T10:13:49 ICT" duration-ms="300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- myshop.com.Level_19_Pattern_PageObject -->
+      </class> <!-- com.nopcommerce.share.Level_Test_Addresses -->
+      <class name="com.nopcommerce.share.Level_20_Common_Register">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.nopcommerce.share.Level_20_Common_Register@55e7a35c]" started-at="2024-08-06T10:13:38 ICT" name="beforeTest" finished-at="2024-08-06T10:13:44 ICT" duration-ms="5967" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- com.nopcommerce.share.Level_20_Common_Register -->
     </test> <!-- Run Chorme -->
   </suite> <!-- Run NopCommerce -->
 </testng-results>
