@@ -46,12 +46,7 @@ public class RegisterPageObject extends BaseElement {
 		return getTextElement(driver, RegisterPageUI.PASSWORD_ERROR_MSG);
 	}
 
-	public HomePageObject clickLogoNopCommerce() {
-		// TODO Auto-generated method stub
-		waitForElementClickable(driver, RegisterPageUI.LOGO_URL);
-		clickToElement(driver, RegisterPageUI.LOGO_URL);
-		return PageGenerator.getHomePageObject(driver);
-	}
+	
 
 	public void inputFirstName(String fName) {
 		// TODO Auto-generated method stub

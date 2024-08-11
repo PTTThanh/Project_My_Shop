@@ -7,7 +7,7 @@ public class RegisterPageUI {
 	public static final String PASSWORD_TEXTBOX = "xpath=//input[@id='Password']";
 	public static final String COMFIRM_PASSWORD_TEXTBOX = "xpath=//input[@id='ConfirmPassword']";
 	public static final String REGISTER_BUTTON = "xpath=//button[@id='register-button']";
-	public static final String LOGO_URL = "xpath=//div[@class='header-logo']//img";
+	
 	public static final String FIRSTNAME_ERROR_MSG ="xpath=//span[@id='FirstName-error']";
 	public static final String LASTNAME_ERROR_MSG ="xpath=//span[@id='LastName-error']";
 	public static final String EMAIL_ERROR_MSG ="xpath=//span[@id='Email-error']";

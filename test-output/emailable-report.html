@@ -9,10 +9,47 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Run NopCommerce</th></tr>
-<tr><td><a href="#t0">Run Chorme</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">11,263</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Run Chorme</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">0</td><td class="num">37,719</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Run NopCommerce</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Run Chorme &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.nopcommerce.share.Level_Test_Addresses</td><td><a href="#m0">TC1_Confirm_Info_Login</a></td><td rowspan="1">1722914028567</td><td rowspan="1">653</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Run NopCommerce</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Run Chorme &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.nopcommerce.share.Pre_Common_Register</td><td><a href="#m0">beforeTest</a></td><td rowspan="1">1723345173187</td><td rowspan="1">37617</td></tr><tr><th colspan="4">Run Chorme &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="2">myshop.com.Nop_03_MyAccount</td><td><a href="#m1">afterClass</a></td><td rowspan="1">1723345210888</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">beforeClass</a></td><td rowspan="1">1723345210840</td><td rowspan="1">0</td></tr><tr><th colspan="4">Run Chorme &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">myshop.com.Nop_03_MyAccount</td><td><a href="#m3">TC01_Customer_Info</a></td><td rowspan="1">1723345210859</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">TC02_Addresses</a></td><td rowspan="1">1723345210875</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Run Chorme</h2><h3 id="m0">com.nopcommerce.share.Level_Test_Addresses#TC1_Confirm_Info_Login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Run Chorme</h2><h3 id="m0">com.nopcommerce.share.Pre_Common_Register#beforeTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chrome</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(),&apos;Register&apos;)] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.99, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\huuvi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52041/devtoo..., se:cdpVersion: 127.0.6533.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ff4be79e0ac55ddf2b18ffe2e0169f2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at commons.BasePage.waitForElementClickable(BasePage.java:411)
+	at pageObjects.user.HomePageObject.clickToLinkRegister(HomePageObject.java:21)
+	at com.nopcommerce.share.Pre_Common_Register.beforeTest(Pre_Common_Register.java:24)
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">myshop.com.Nop_03_MyAccount#afterClass</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">myshop.com.Nop_03_MyAccount#beforeClass</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">myshop.com.Nop_03_MyAccount#TC01_Customer_Info</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(),&apos;Register&apos;)] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.99, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\huuvi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52041/devtoo..., se:cdpVersion: 127.0.6533.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ff4be79e0ac55ddf2b18ffe2e0169f2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at commons.BasePage.waitForElementClickable(BasePage.java:411)
+	at pageObjects.user.HomePageObject.clickToLinkRegister(HomePageObject.java:21)
+	at com.nopcommerce.share.Pre_Common_Register.beforeTest(Pre_Common_Register.java:24)
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">myshop.com.Nop_03_MyAccount#TC02_Addresses</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(),&apos;Register&apos;)] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.99, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\huuvi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52041/devtoo..., se:cdpVersion: 127.0.6533.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ff4be79e0ac55ddf2b18ffe2e0169f2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at commons.BasePage.waitForElementClickable(BasePage.java:411)
+	at pageObjects.user.HomePageObject.clickToLinkRegister(HomePageObject.java:21)
+	at com.nopcommerce.share.Pre_Common_Register.beforeTest(Pre_Common_Register.java:24)
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run Chorme"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="10.229">
+  <properties />
+  
+  
+            <testcase name="TC04_Information_Valid" time="3.031" classname="myshop.com.Nop_01_Register" />
+                <testcase name="TC02_Invalid_Email" time="2.740" classname="myshop.com.Nop_01_Register" />
+                <testcase name="TC03_ConfirmPassword_Not_Match_Password" time="2.491" classname="myshop.com.Nop_01_Register" />
+                <testcase name="TC01_Empty_Data" time="1.967" classname="myshop.com.Nop_01_Register" />
+      
+</testsuite>

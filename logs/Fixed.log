@@ -104,3 +104,19 @@
 [31-07-2024 14:57:19.250 INFO myshop.com.Level_18_Extent_Report_V5] - User_01 - Step 05: Input Password
 [31-07-2024 14:57:19.611 INFO myshop.com.Level_18_Extent_Report_V5] - User_01 - Step 06: Input Confirm Password
 [31-07-2024 14:57:19.785 INFO myshop.com.Level_18_Extent_Report_V5] - User_01 - Step 07: Click to Register Button
+[08-08-2024 11:16:37.758 INFO myshop.com.Nop_03_MyAccount] - Update information gender 
+[08-08-2024 11:17:41.470 INFO myshop.com.Nop_03_MyAccount] - Update information gender 
+[08-08-2024 11:18:44.024 INFO myshop.com.Nop_03_MyAccount] - Update information gender 
+[08-08-2024 11:30:49.049 INFO myshop.com.Nop_03_MyAccount] - Update information gender 
+[08-08-2024 11:36:52.894 INFO myshop.com.Nop_03_MyAccount] - Update information gender 
+[08-08-2024 11:40:07.988 INFO myshop.com.Nop_03_MyAccount] - Update information gender 
+[08-08-2024 11:48:39.794 INFO myshop.com.Nop_03_MyAccount] - Update information gender 
+[08-08-2024 11:48:39.983 INFO myshop.com.Nop_03_MyAccount] - Update information FirstName 
+[08-08-2024 11:48:40.258 INFO myshop.com.Nop_03_MyAccount] - Update information LastName 
+[08-08-2024 11:48:40.441 INFO myshop.com.Nop_03_MyAccount] - Update information DateOfBirthDay 
+[08-08-2024 11:48:40.685 INFO myshop.com.Nop_03_MyAccount] - Update information DateOfBirthMonth 
+[08-08-2024 11:48:40.820 INFO myshop.com.Nop_03_MyAccount] - Update information DateOfBirthYear 
+[08-08-2024 11:48:40.968 INFO myshop.com.Nop_03_MyAccount] - Update information email 
+[08-08-2024 11:48:41.287 INFO myshop.com.Nop_03_MyAccount] - Update information Company Automation 
+[08-08-2024 11:48:41.529 INFO myshop.com.Nop_03_MyAccount] - Click to Save 
+[08-08-2024 11:48:42.571 INFO myshop.com.Nop_03_MyAccount] - Comapre message notify update successfully

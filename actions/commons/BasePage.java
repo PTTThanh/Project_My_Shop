@@ -18,7 +18,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import pageObjects.user.HomePageObject;
 import pageUIs.user.BasePageUI;
+import pageUIs.user.RegisterPageUI;
 
 	public class BasePage {
 		//Không cần tạo đối tượng mà vẫn truy cập dc -- static
@@ -227,6 +229,9 @@ import pageUIs.user.BasePageUI;
 
 		public String getTextElement(WebDriver driver, String locator) {
 			return getElement(driver, locator).getText();
+		}
+		public String getTextElement(WebDriver driver, String locator, String...values) {
+			return getElement(driver, getDynamicLocator(locator, values)).getText();
 		}
 
 		public int getElementSize(WebDriver driver, String locator) {
@@ -478,6 +483,12 @@ import pageUIs.user.BasePageUI;
 				}
 			};
 			return expliciWait.until(jQueryLoad)&& expliciWait.until(jsLoad);
+		}
+		public HomePageObject clickLogoNopCommerce(WebDriver driver) {
+			// TODO Auto-generated method stub
+			waitForElementClickable(driver, BasePageUI.LOGO_URL);
+			clickToElement(driver, BasePageUI.LOGO_URL);
+			return PageGenerator.getHomePageObject(driver);
 		}
 		private Alert alert;
 		private WebDriverWait wait;

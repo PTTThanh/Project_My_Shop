@@ -3,13 +3,14 @@
 	<listeners>
 		<listener class-name="commons.MethodListener"></listener>
 		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+		
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
 	</listeners>
 	<test name="Run Chorme">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
-			<class name="com.nopcommerce.share.Level_20_Common_Register" />
-			<class name="com.nopcommerce.share.Level_Test_Addresses" />
+			<class name="com.nopcommerce.share.Pre_Common_Register" />
+			<class name="myshop.com.Nop_03_MyAccount" />
 		</classes>
 	</test>
 </suite> <!--

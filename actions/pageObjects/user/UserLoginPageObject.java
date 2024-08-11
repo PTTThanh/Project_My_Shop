@@ -14,10 +14,11 @@ public class UserLoginPageObject extends BaseElement {
 		this.driver = driver;
 	}
 
-	public void clickToLoginButton() {
+	public HomePageObject clickToLoginButton() {
 		// TODO Auto-generated method stub
 		waitToElementPresence(driver, LoginPageUI.LOGIN_BUTTON);
 		clickToElement(driver, LoginPageUI.LOGIN_BUTTON);
+		return new HomePageObject(driver);
 		
 	}
 

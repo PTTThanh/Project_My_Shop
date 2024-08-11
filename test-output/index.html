@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Run_NopCommerce" class="navigator-link">
-              <span class="suite-name border-passed">Run NopCommerce</span>
+              <span class="suite-name border-skipped">Run NopCommerce</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,  2 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Run_NopCommerce" class="hide-methods passed suite-Run_NopCommerce"> (hide)</a> <!-- hide-methods passed suite-Run_NopCommerce -->
-                      <a href="#" panel-name="suite-Run_NopCommerce" class="show-methods passed suite-Run_NopCommerce"> (show)</a> <!-- show-methods passed suite-Run_NopCommerce -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Run_NopCommerce" class="hide-methods skipped suite-Run_NopCommerce"> (hide)</a> <!-- hide-methods skipped suite-Run_NopCommerce -->
+                      <a href="#" panel-name="suite-Run_NopCommerce" class="show-methods skipped suite-Run_NopCommerce"> (show)</a> <!-- show-methods skipped suite-Run_NopCommerce -->
                     </span>
-                    <div class="method-list-content passed suite-Run_NopCommerce">
+                    <div class="method-list-content skipped suite-Run_NopCommerce">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.nopcommerce.share.Level_Test_Addresses" class="method navigator-link" hash-for-method="TC1_Confirm_Info_Login">TC1_Confirm_Info_Login</a> <!-- method navigator-link -->
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="myshop.com.Nop_03_MyAccount" class="method navigator-link" hash-for-method="TC01_Customer_Info">TC01_Customer_Info</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Run_NopCommerce -->
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="myshop.com.Nop_03_MyAccount" class="method navigator-link" hash-for-method="TC02_Addresses">TC02_Addresses</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Run_NopCommerce -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,21 +123,54 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Run_NopCommerce" class="panel Run_NopCommerce">
-          <div class="suite-Run_NopCommerce-class-passed">
+          <div class="suite-Run_NopCommerce-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.nopcommerce.share.Level_Test_Addresses</span>
+              <img src="skipped.png"/>
+              <span class="class-name">myshop.com.Nop_03_MyAccount</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TC1_Confirm_Info_Login">
-                  </a> <!-- TC1_Confirm_Info_Login -->
-                  <span class="method-name">TC1_Confirm_Info_Login</span>
+                  <a name="TC01_Customer_Info">
+                  </a> <!-- TC01_Customer_Info -->
+                  <span class="method-name">TC01_Customer_Info</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(),&apos;Register&apos;)] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.99, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\huuvi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52041/devtoo..., se:cdpVersion: 127.0.6533.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ff4be79e0ac55ddf2b18ffe2e0169f2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at commons.BasePage.waitForElementClickable(BasePage.java:411)
+	at pageObjects.user.HomePageObject.clickToLinkRegister(HomePageObject.java:21)
+	at com.nopcommerce.share.Pre_Common_Register.beforeTest(Pre_Common_Register.java:24)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC02_Addresses">
+                  </a> <!-- TC02_Addresses -->
+                  <span class="method-name">TC02_Addresses</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(),&apos;Register&apos;)] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.99, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\huuvi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52041/devtoo..., se:cdpVersion: 127.0.6533.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ff4be79e0ac55ddf2b18ffe2e0169f2
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at commons.BasePage.waitForElementClickable(BasePage.java:411)
+	at pageObjects.user.HomePageObject.clickToLinkRegister(HomePageObject.java:21)
+	at com.nopcommerce.share.Pre_Common_Register.beforeTest(Pre_Common_Register.java:24)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Run_NopCommerce-class-passed -->
+          </div> <!-- suite-Run_NopCommerce-class-skipped -->
         </div> <!-- panel Run_NopCommerce -->
         <div panel-name="test-xml-Run_NopCommerce" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -151,8 +189,8 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Run Chorme&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.nopcommerce.share.Level_20_Common_Register&quot;/&gt;
-      &lt;class name=&quot;com.nopcommerce.share.Level_Test_Addresses&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.share.Pre_Common_Register&quot;/&gt;
+      &lt;class name=&quot;myshop.com.Nop_03_MyAccount&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Run Chorme --&gt;
 &lt;/suite&gt; &lt;!-- Run NopCommerce --&gt;
@@ -192,16 +230,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC1_Confirm_Info_Login')
-data.setCell(0, 2, 'com.nopcommerce.share.Level_Test_Addresses')
-data.setCell(0, 3, 653);
+data.setCell(0, 1, 'TC02_Addresses')
+data.setCell(0, 2, 'myshop.com.Nop_03_MyAccount')
+data.setCell(0, 3, 0);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC01_Customer_Info')
+data.setCell(1, 2, 'myshop.com.Nop_03_MyAccount')
+data.setCell(1, 3, 0);
 window.suiteTableData['Run_NopCommerce']= { tableData: data, tableDiv: 'times-div-Run_NopCommerce'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 653 ms</span>
+              <span class="suite-total-time">Total running time: 0 ms</span>
               <div id="times-div-Run_NopCommerce">
               </div> <!-- times-div-Run_NopCommerce -->
             </div> <!-- times-div -->
@@ -227,25 +269,31 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.nopcommerce.share.Level_20_Common_Register</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.nopcommerce.share.Pre_Common_Register</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">beforeTest(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.nopcommerce.share.Level_Test_Addresses</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">myshop.com.Nop_03_MyAccount</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">beforeClass(chrome)</span>
-                <span class="method-start">5990 ms</span>
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">37653 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">TC1_Confirm_Info_Login</span>
-                <span class="method-start">10293 ms</span>
+                <span class="method-name">TC01_Customer_Info</span>
+                <span class="method-start">37672 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC02_Addresses</span>
+                <span class="method-start">37688 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">10950 ms</span>
+                <span class="method-start">37701 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

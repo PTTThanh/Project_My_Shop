@@ -9,13 +9,19 @@
   <test thread-count="5" name="Run Chorme(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.nopcommerce.share.Level_Test_Addresses">
+      <class name="myshop.com.Nop_03_MyAccount">
         <methods>
+          <include name="TC02_Addresses"/>
           <include name="afterClass"/>
+          <include name="TC01_Customer_Info"/>
           <include name="beforeClass"/>
-          <include name="TC3_Confirm_Info_Login"/>
         </methods>
-      </class> <!-- com.nopcommerce.share.Level_Test_Addresses -->
+      </class> <!-- myshop.com.Nop_03_MyAccount -->
+      <class name="com.nopcommerce.share.Pre_Common_Register">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.nopcommerce.share.Pre_Common_Register -->
     </classes>
   </test> <!-- Run Chorme(failed) -->
 </suite> <!-- Failed suite [Run NopCommerce] -->

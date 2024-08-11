@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run Chorme"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="4"
+           time="0.000">
+  <properties />
+  
+            <testcase name="afterClass" time="0.0" classname="myshop.com.Nop_03_MyAccount">
+          <skipped />
+    </testcase>
+            <testcase name="beforeClass" time="0.0" classname="myshop.com.Nop_03_MyAccount">
+          <skipped />
+    </testcase>
+            <testcase name="TC02_Addresses" time="0.0" classname="myshop.com.Nop_03_MyAccount">
+          <skipped />
+    </testcase>
+            <testcase name="TC01_Customer_Info" time="0.0" classname="myshop.com.Nop_03_MyAccount">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

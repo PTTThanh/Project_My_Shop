@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run Chorme"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="10.398">
+  <properties />
+  
+  
+            <testcase name="TC04_Email_Register_Password_Not_Input" time="2.150" classname="myshop.com.Nop_02_Login" />
+                <testcase name="TC03_Email_Not_Register" time="2.113" classname="myshop.com.Nop_02_Login" />
+                <testcase name="TC05_Email_Register_Password_Input_Wrong" time="1.991" classname="myshop.com.Nop_02_Login" />
+                <testcase name="TC02_Invalid_Email" time="1.642" classname="myshop.com.Nop_02_Login" />
+                <testcase name="TC01_Empty_Data" time="0.179" classname="myshop.com.Nop_02_Login" />
+                <testcase name="TC06_Email_Register_Password_Input_Right" time="2.323" classname="myshop.com.Nop_02_Login" />
+      
+</testsuite>
